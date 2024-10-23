@@ -25,3 +25,15 @@ def calcula_poblaciones(poblaciones):
     return sorted(paises)
 
 
+def filtra_por_pais(poblaciones,nombre_o_codigo):
+    nombre_o_codigo:dict(str,str) = {}
+    for pais in poblaciones:
+        nombre_o_codigo[pais.pais] = pais.codigo
+    return nombre_o_codigo
+    datos = []
+    for dato in poblaciones:
+        
+
+    
+
+
